@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b37834e;
+
+}
+
+.container{
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0,);
+}
+
+.form-img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-img img{
+    width: 41rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 0.3rem;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.grupo-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.caixa-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.caixa-input input{
+    margin: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+
+}
+
+.add-cliente button{
+    width: 10rem;
+    border: none;
+    background-color:#5102754e;
+    padding: .62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: flex-end;
+   
+}
+.add-cliente button:hover{
+    background-color:#35044c4e;
+
+}
+.add-cliente button a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000000;
+
+}
+.lista-cliente button{
+    width: 10rem;
+    border: none;
+    background-color:#5102754e;
+    padding: .62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: flex-end;
+   
+}
+
+
+
+.lista-cliente button:hover{
+    background-color:#35044c4e;
+}
+.lista-cliente button a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000000;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.caixa > *{
+    height: min-content;
+    
+}
+
+    
